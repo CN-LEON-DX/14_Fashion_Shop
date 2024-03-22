@@ -1,0 +1,17 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "complie:pug": "pug -w ./templates -o ./ -P",
+    "complie:sass": "sass --watch assets/scss:assets/css",
+    "start": "npm-run-all -p complie:pug complie:sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
