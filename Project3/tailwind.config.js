@@ -15,6 +15,7 @@ tailwind.config = {
         fontFamily: {
           roboto:  ['Be Vietnam Pro', 'sans-serif'],
           //robotoCo: ['Roboto Condensed', 'sans-serif']
+          font_awsome: ['Font Awesome 6 Pro'],
         }
       }
     }
