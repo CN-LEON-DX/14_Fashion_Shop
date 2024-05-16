@@ -5,6 +5,8 @@ html
         meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
         link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css")
         link(rel="stylesheet", href="assets/css/style.css")
+        link(href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet")
+        link(href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet")
         script(src="https://cdn.tailwindcss.com")
         script(src="tailwind.config.js") 
     body
@@ -52,60 +54,59 @@ html
         div(class="bg-[#F2F0F1]")
             div(class="container mx-auto flex flex-wrap justify-between items-center sm:px-0 px-[16px]" )
                 //- Content section 
-                div(class="pt-[140px] md:w-[48%] w-full")
-                    h2(class="uppercase xl:text-[48px] lg:text-[38px] text-[28px] font-[900] mb-[20px]") CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI
-                    div(class="xl:text-[16px] text-[14px] text-black opacity-60 mb-[40px]") Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉ, được thiết kế để làm nổi bật cá tính của bạn và đáp ứng phong cách của bạn.
+                div(class="pt-[60px] md:w-[48%] w-full")
+                    h2(class="uppercase xl:text-[48px] lg:text-[38px] text-[28px] font-[900] mb-[20px] " data-aos="fade-up" data-aos-duration="800") CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI
+                    div(class="xl:text-[16px] text-[14px] text-black opacity-60 mb-[40px]" data-aos="fade-up" data-aos-duration="800"  data-aos-delay="150") Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉ, được thiết kế để làm nổi bật cá tính của bạn và đáp ứng phong cách của bạn.
                     //- Button See now
-                    a(class="sm:inline block sm:text-right text-center px-[64px] py-[16px] bg-black text-white rounded-[62px]" href="#") Xem Ngay
+                    a(class="sm:inline block sm:text-right text-center px-[64px] py-[16px] bg-black text-white rounded-[62px]" href="#" data-aos="fade-up" data-aos-duration="800"  data-aos-delay="600") Xem Ngay
                     div(class="flex sm:flex-nowrap flex-wrap sm:mt-[50px] mt-[30px] sm:justify-left justify-center")
-                        div(class="sm:pr-[32px] pr-0 sm:mr-[32px] mr-0 sm:w-auto w-[50%] text-black sm:border-r border-black sm:text-left text-center sm:justify-left justify-center")
+                        div(class="sm:pr-[32px] pr-0 sm:mr-[32px] mr-0 sm:w-auto w-[50%] text-black sm:border-r border-black sm:text-left text-center sm:justify-left justify-center" data-aos="fade-up" data-aos-duration="800"  data-aos-delay="450")
                             div(class="xl:text-[40px] text-[24px] xl: font-[700] text-black ") 200+
                             div(class="xl:text-[16px] text-[14px] font-[400] text-black opacity-60") Thương Hiệu
-                        div(class="pr-[32px] sm:mr-[32px] mr-0 sm:w-auto w-[50%]  text-black sm:border-r border-black sm:justify-left justify-center sm:text-left text-center")
+                        div(class="pr-[32px] sm:mr-[32px] mr-0 sm:w-auto w-[50%]  text-black sm:border-r border-black sm:justify-left justify-center sm:text-left text-center" data-aos="fade-up" data-aos-duration="800"  data-aos-delay="600") 
                             div(class="xl:text-[40px] text-[24px] font-[700] text-black") 2,000+
                             div(class="xl:text-[16px] text-[14px] font-[400] text-black opacity-60") Sản Phẩm Chất Lượng
-                        div(class="w-[100%] sm:text-left text-center sm:justify-left justify-center")
+                        div(class="w-[100%] sm:text-left text-center sm:justify-left justify-center" data-aos="fade-up" data-aos-duration="800"  data-aos-delay="750")
                             div(class="xl:text-[40px] text-[24px] font-[700] text-black") 30,000+
                             div(class="xl:text-[16px] text-[14px] font-[400] text-black opacity-60") Khách Hàng
-                        
                 //- End Content section 1
                 //- Images
                 div(class="md:w-[48%] w-full relative truncate")
-                    img(class="w-full md:pt-[150px] pt-[50px] mb-[-2px]" src="assets/images/sec1-image-main.png")
-                    img(class="absolute top-[46%] left-0 w-[56px] sm:inline-block hidden" src="assets/images/sec1-icon-star.svg")
-                    img(class="absolute top-[14%] right-0 lg:w-[104px] sm:inline-block hidden" src="assets/images/sec1-icon-star-2.svg")
+                    img(class="w-full md:pt-[150px] pt-[50px] mb-[-2px]" src="assets/images/sec1-image-main.png" data-aos="fade-up" data-aos-duration="800"  data-aos-delay="300")
+                    img(class="absolute top-[46%] left-0 w-[56px] sm:inline-block hidden" src="assets/images/sec1-icon-star.svg" data-aos="fade-up" data-aos-duration="800"  data-aos-delay="450")
+                    img(class="absolute top-[14%] right-0 lg:w-[104px] sm:inline-block hidden" src="assets/images/sec1-icon-star-2.svg" data-aos="fade-up" data-aos-duration="800"  data-aos-delay="450")
         //- Section 2
         div(class="bg-[#000000] sm:py-[28px] py-[25px]")
             div(class="container mx-auto sm:px-0 px-[16px] flex flex-wrap items-center justify-center")
-                div(class="sm:mx-[30px] mx-[15px] my-[15px]")
+                div(class="sm:mx-[30px] mx-[15px] my-[15px]"  data-aos="fade-right" data-aos-duration="800"  data-aos-delay="300")
                     a(class="" href="#")
-                        img(class="" src="assets/images/versace-logo.png" class="md:h-[34px] h-[22px] w-auto")
-                div(class="sm:mx-[30px] mx-[15px] my-[15px]")
+                        img(class="" src="assets/images/versace-logo.png" class="md:h-[34px] h-[22px] w-auto" )
+                div(class="sm:mx-[30px] mx-[15px] my-[15px]"  data-aos="fade-right" data-aos-duration="800"  data-aos-delay="300")
                     a(class="" href="#")
                         img(class="" src="assets/images/zara-logo.png" class="md:h-[34px] h-[22px] w-auto")
-                div(class="sm:mx-[30px] mx-[15px] my-[15px]")
+                div(class="sm:mx-[30px] mx-[15px] my-[15px]" data-aos="fade-right" data-aos-duration="800"  data-aos-delay="300")
                     a(class="" href="#")
                         img(class="" src="assets/images/gucci-logo.png" class="md:h-[34px] h-[22px] w-auto")
-                div(class="sm:mx-[30px] mx-[15px] my-[15px]")
+                div(class="sm:mx-[30px] mx-[15px] my-[15px]"  data-aos="fade-left" data-aos-duration="800"  data-aos-delay="300")
                     a(class="" href="#")
                         img(class="" src="assets/images/prada-logo.png" class="md:h-[34px] h-[22px] w-auto")
-                div(class="sm:mx-[30px] mx-[15px] my-[15px]")
+                div(class="sm:mx-[30px] mx-[15px] my-[15px]"  data-aos="fade-left" data-aos-duration="800"  data-aos-delay="300")
                     a(class="" href="#")
                         img(class="" src="assets/images/comnklenin-logo.png" class="md:h-[34px] h-[22px] w-auto")
         //- SECTION 3
         div(class="bg-white lg:py-[62px] py-[42px]")
             div(class="container sm:px-0 px-[16px] mx-auto relative")
-                h2(class="uppercase text-center lg:text-[48px] text-[32px] font-[700] lg:mb-[54px] mb-[32px]") Thời trang mới 
+                h2(class="uppercase text-center lg:text-[48px] text-[32px] font-[700] lg:mb-[54px] mb-[32px]" data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="150") Thời trang mới 
                 //- List item
                 div(class="grid lg:grid-cols-4 grid-cols-2 gap-[20px] ")
                     //- item
-                    div(class="")
+                    div(class=""  data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="150")
                         a(href="#")
                             div(class="aspect-square truncate rounded-[20px]")
                                 image(src="assets/images/product-1.jpg" class="w-full h-full object-cover") 
                             h2(class="capitalize mt-[20px] font-bold text-[18px] font-[700]") Áo Thun Nam Đơn Giản
                             div(class="mt-[10px]")
-                                span(class="md:text-[18px] text-[15px] text-[#FFC633]")
+                                span(class="md:text-[18px] text-[15px] text-[#FFC633]") 
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -117,7 +118,7 @@ html
                                 span(class="mr-[10px] md:text-[18px] text-[14px] font-[700]") 120.000đ
                                 span(class="hidden mr-[10px] md:text-[14px] text-[12px] opacity-40 line-through") 600.000đ
                                 span(class="hidden text-[#FF3333] bg-[#FFEBEB] md:text-[12px] text-[10px] py-[6px] px-[12px] rounded-[62px]") -20%
-                    div(class="")
+                    div(class=""  data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="300")
                         a(href="#")
                             div(class="aspect-square truncate rounded-[20px]")
                                 image(src="assets/images/product-2.jpg" class="w-full h-full object-cover") 
@@ -135,7 +136,7 @@ html
                                 span(class="mr-[10px] md:text-[18px] text-[14px] font-[700]") 480.000đ
                                 span(class="mr-[10px] md:text-[14px] text-[12px] opacity-40 line-through") 600.000đ
                                 span(class="text-[#FF3333] bg-[#FFEBEB] md:text-[12px] text-[10px] py-[6px] px-[12px] rounded-[62px]") -20%
-                    div(class="")
+                    div(class=""  data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="450")
                         a(href="#")
                             div(class="aspect-square truncate rounded-[20px]")
                                 image(src="assets/images/product-3.jpg" class="w-full h-full object-cover") 
@@ -153,7 +154,7 @@ html
                                 span(class="mr-[10px] md:text-[18px] text-[14px] font-[700]") 220.000đ
                                 span(class="hidden mr-[10px] md:text-[14px] text-[12px] opacity-40 line-through") 600.000đ
                                 span(class="hidden text-[#FF3333] bg-[#FFEBEB] md:text-[12px] text-[10px] py-[6px] px-[12px] rounded-[62px]") -20%
-                    div(class="")
+                    div(class=""  data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="600")
                         a(href="#")
                             div(class="aspect-square truncate rounded-[20px]")
                                 image(src="assets/images/product-4.jpg" class="w-full h-full object-cover") 
@@ -178,11 +179,11 @@ html
         //- SECTION 4
         div(class="bg-white lg:py-[62px] py-[42px]")
             div(class="container sm:px-0 px-[16px] mx-auto  ")
-                h2(class="uppercase text-center lg:text-[48px] text-[32px] font-[700] lg:mb-[54px] mb-[32px]") Giảm giá nhiều
+                h2(class="uppercase text-center lg:text-[48px] text-[32px] font-[700] lg:mb-[54px] mb-[32px]" data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="150") Giảm giá nhiều
                 //- List item
                 div(class="grid lg:grid-cols-4 grid-cols-2 gap-[20px] ")
                     //- item
-                    div(class="")
+                    div(class="" data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="150")
                         a(href="#")
                             div(class="aspect-square truncate rounded-[20px]")
                                 image(src="assets/images/product-1.jpg" class="w-full h-full object-cover") 
@@ -200,7 +201,7 @@ html
                                 span(class="mr-[10px] md:text-[18px] text-[14px] font-[700]") 120.000đ
                                 span(class="hidden mr-[10px] md:text-[14px] text-[12px] opacity-40 line-through") 600.000đ
                                 span(class="hidden text-[#FF3333] bg-[#FFEBEB] md:text-[12px] text-[10px] py-[6px] px-[12px] rounded-[62px]") -20%
-                    div(class="")
+                    div(class="" data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="300")
                         a(href="#")
                             div(class="aspect-square truncate rounded-[20px]")
                                 image(src="assets/images/product-2.jpg" class="w-full h-full object-cover") 
@@ -218,7 +219,7 @@ html
                                 span(class="mr-[10px] md:text-[18px] text-[14px] font-[700]") 480.000đ
                                 span(class="mr-[10px] md:text-[14px] text-[12px] opacity-40 line-through") 600.000đ
                                 span(class="text-[#FF3333] bg-[#FFEBEB] md:text-[12px] text-[10px] py-[6px] px-[12px] rounded-[62px]") -20%
-                    div(class="")
+                    div(class="" data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="450")
                         a(href="#")
                             div(class="aspect-square truncate rounded-[20px]")
                                 image(src="assets/images/product-3.jpg" class="w-full h-full object-cover") 
@@ -236,7 +237,7 @@ html
                                 span(class="mr-[10px] md:text-[18px] text-[14px] font-[700]") 220.000đ
                                 span(class="hidden mr-[10px] md:text-[14px] text-[12px] opacity-40 line-through") 600.000đ
                                 span(class="hidden text-[#FF3333] bg-[#FFEBEB] md:text-[12px] text-[10px] py-[6px] px-[12px] rounded-[62px]") -20%
-                    div(class="")
+                    div(class="" data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="600")
                         a(href="#")
                             div(class="aspect-square truncate rounded-[20px]")
                                 image(src="assets/images/product-4.jpg" class="w-full h-full object-cover") 
@@ -261,71 +262,109 @@ html
         div(class="bg-white md:mb-[86px] mb-[40px]")
             div(class="container mx-auto sm:px-0 px-[16px] bg-[#F0F0F0] rounded-[40px] ")
                 div(class="md:py-[70px] py-[24px] md:px-[64px] px-[26px]")
-                    h2(class="uppercase text-center lg:text-[48px] text-[32px] font-[700] lg:mb-[54px] mb-[32px]") Danh mục nổi bật
+                    h2(class="uppercase text-center lg:text-[48px] text-[32px] font-[700] lg:mb-[54px] mb-[32px]" data-aos="zoom-in" data-aos-duration="800"  data-aos-delay="100") Danh mục nổi bật
                     div(class="grid gap-[20px] lg:grid-cols-3 grid-cols-1")
-                        div(class="relative truncate rounded-[20px]")
+                        div(class="relative truncate rounded-[20px]" data-aos="fade-down" data-aos-duration="800"  data-aos-delay="100")
                             a(class="" href="#")
                                 h3(class="absolute md:top-[26px] top-[17px] md:left-[36px] left-[24px] md:text-[36px] text-[24px] font-bold text-black") Đơn giản
                                 img(src="assets/images/sec5-simple-1.jpg", alt="" class="w-full md:h-[289px] h-[190px] object-cover")
-                        div(class="lg:col-span-2 col-span-1 relative truncate rounded-[20px]")
+                        div(class="lg:col-span-2 col-span-1 relative truncate rounded-[20px]" data-aos="fade-left" data-aos-duration="800"  data-aos-delay="200")
                             a(class="" href="#")
                                 h3(class="absolute md:top-[26px] top-[17px] md:left-[36px] left-[24px] md:text-[36px] text-[24px] font-bold text-black") Lịch lãm
                                 img(src="assets/images/sec5-elegent-2.jpg", alt="" class="w-full md:h-[289px] h-[190px] object-cover")
-                        div(class="lg:col-span-2 col-span-1 relative truncate rounded-[20px]")
+                        div(class="lg:col-span-2 col-span-1 relative truncate rounded-[20px]" data-aos="fade-right" data-aos-duration="800"  data-aos-delay="300")
                             a(class="" href="#")
                                 h3(class="absolute md:top-[26px] top-[17px] md:left-[36px] left-[24px] md:text-[36px] text-[24px] font-bold text-black") Dạ hội
                                 img(src="assets/images/sec5-party-3.jpg", alt="" class="w-full md:h-[289px] h-[190px] object-cover")
-                        div(class="relative truncate rounded-[20px]")
+                        div(class="relative truncate rounded-[20px]" data-aos="fade-up" data-aos-duration="800"  data-aos-delay="400")
                             a(class="" href="#")
                                 h3(class="absolute md:top-[26px] top-[17px] md:left-[36px] left-[24px] md:text-[36px] text-[24px] font-bold text-black") Gym
                                 img(src="assets/images/sec5-gym-4.jpg", alt="" class="w-full md:h-[289px] h-[190px] object-cover")        
         //- END SECTION 5
         
-        //- SECTION 6
+        //- SECTION 6 Swiper
         div(class="md:pb-[80px] pb-[60px]")
             div(class="container mx-auto sm:px-0 px-[16px] ")
                 h2(class="uppercase xl:text-[48px] lg:text-[38px] text-[32px] font-[700] lg:mb-[38px] mb-[32px] text-center") CẢM NHẬN CỦA KHÁCH HÀNG
-                div(class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[20px]")
-                    //- item
-                    div(class="md:px-[28px] px-[24px] md:py-[32px] py-[24px] border border-back-100 rounded-[20px]")
-                        div(class="md:text-[22px] text-[18px] text-[#FFC633] md:mb-[15px] mb-[12px]")
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        div(class="flex items-center md:mb-[12px] mb-[8px]")
-                            span(class="capitalize md:text-[20px] text-[16px] mr-[7px] text-black font-[700]") Le Van A
-                            //- icon here 
-                            <i class="fa-solid fa-circle-check md:w-[20px] w-[16px] md:h-[20px] h-[16px] text-[#01AB31]"></i>
-                        //-description
-                        div(class="text-black opacity-60 font-[400] md:text-[16px] text-[14px]") "Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 14.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."
-                    div(class="md:px-[28px] px-[24px] md:py-[32px] py-[24px] border border-back-100 rounded-[20px]")
-                        div(class="md:text-[22px] text-[18px] text-[#FFC633] md:mb-[15px] mb-[12px]")
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        div(class="flex items-center md:mb-[12px] mb-[8px]")
-                            span(class="capitalize md:text-[20px] text-[16px] mr-[7px] text-black font-[700]") Le Van B
-                            //- icon here 
-                            <i class="fa-solid fa-circle-check md:w-[20px] w-[16px] md:h-[20px] h-[16px] text-[#01AB31]"></i>
-                        //-description
-                        div(class="text-black opacity-60 font-[400] md:text-[16px] text-[14px]") "Việc tìm kiếm quần áo phù hợp với phong cách cá nhân của tôi từng là một thử thách cho đến khi tôi khám phá ra 28.SHOP. Hàng loạt lựa chọn mà họ cung cấp thực sự đáng chú ý."
-                    div(class="md:px-[28px] px-[24px] md:py-[32px] py-[24px] border border-back-100 rounded-[20px]")
-                        div(class="md:text-[22px] text-[18px] text-[#FFC633] md:mb-[15px] mb-[12px]")
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        div(class="flex items-center md:mb-[12px] mb-[8px]")
-                            span(class="capitalize md:text-[20px] text-[16px] mr-[7px] text-black font-[700]") Le Van A
-                            //- icon here 
-                            <i class="fa-solid fa-circle-check md:w-[20px] w-[16px] md:h-[20px] h-[16px] text-[#01AB31]"></i>
-                        //-description
-                        div(class="text-black opacity-60 font-[400] md:text-[16px] text-[14px]") "Là một người luôn tìm kiếm những món đồ thời trang độc đáo, tôi rất vui khi tình cờ biết đến 28.SHOP. Việc lựa chọn quần áo không chỉ đa dạng mà còn bắt kịp xu hướng mới nhất."
+
+                div(class="swiper swiper-section-comment")
+                    div(class="swiper-wrapper")
+                        //- item 
+                        div(class="swiper-slide")
+                            div(class="md:px-[28px] px-[24px] md:py-[32px] py-[24px] border border-back-100 rounded-[20px]")
+                                div(class="md:text-[22px] text-[18px] text-[#FFC633] md:mb-[15px] mb-[12px]")
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                div(class="flex items-center md:mb-[12px] mb-[8px]")
+                                    span(class="capitalize md:text-[20px] text-[16px] mr-[7px] text-black font-[700]") Le Van A
+                                    //- icon here 
+                                    <i class="fa-solid fa-circle-check md:w-[20px] w-[16px] md:h-[20px] h-[16px] text-[#01AB31]"></i>
+                                //-description
+                                div(class="text-black opacity-60 font-[400] md:text-[16px] text-[14px]") "Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 14.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."
+                        div(class="swiper-slide")
+                            div(class="md:px-[28px] px-[24px] md:py-[32px] py-[24px] border border-back-100 rounded-[20px]")
+                                div(class="md:text-[22px] text-[18px] text-[#FFC633] md:mb-[15px] mb-[12px]")
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                div(class="flex items-center md:mb-[12px] mb-[8px]")
+                                    span(class="capitalize md:text-[20px] text-[16px] mr-[7px] text-black font-[700]") Le Van B
+                                    //- icon here 
+                                    <i class="fa-solid fa-circle-check md:w-[20px] w-[16px] md:h-[20px] h-[16px] text-[#01AB31]"></i>
+                                //-description
+                                div(class="text-black opacity-60 font-[400] md:text-[16px] text-[14px]") "Việc tìm kiếm quần áo phù hợp với phong cách cá nhân của tôi từng là một thử thách cho đến khi tôi khám phá ra 14.SHOP. Hàng loạt lựa chọn mà họ cung cấp thực sự đáng chú ý."
+                        div(class="swiper-slide") 
+                            div(class="md:px-[28px] px-[24px] md:py-[32px] py-[24px] border border-back-100 rounded-[20px]")
+                                div(class="md:text-[22px] text-[18px] text-[#FFC633] md:mb-[15px] mb-[12px]")
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                div(class="flex items-center md:mb-[12px] mb-[8px]")
+                                    span(class="capitalize md:text-[20px] text-[16px] mr-[7px] text-black font-[700]") Le Van A
+                                    //- icon here 
+                                    <i class="fa-solid fa-circle-check md:w-[20px] w-[16px] md:h-[20px] h-[16px] text-[#01AB31]"></i>
+                                //-description
+                                div(class="text-black opacity-60 font-[400] md:text-[16px] text-[14px]") "Là một người luôn tìm kiếm những món đồ thời trang độc đáo, tôi rất vui khi tình cờ biết đến 14.SHOP. Việc lựa chọn quần áo không chỉ đa dạng mà còn bắt kịp xu hướng mới nhất."
+                        div(class="swiper-slide") 
+                            div(class="md:px-[28px] px-[24px] md:py-[32px] py-[24px] border border-back-100 rounded-[20px]")
+                                div(class="md:text-[22px] text-[18px] text-[#FFC633] md:mb-[15px] mb-[12px]")
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                div(class="flex items-center md:mb-[12px] mb-[8px]")
+                                    span(class="capitalize md:text-[20px] text-[16px] mr-[7px] text-black font-[700]") Le Xanh D
+                                    //- icon here 
+                                    <i class="fa-solid fa-circle-check md:w-[20px] w-[16px] md:h-[20px] h-[16px] text-[#01AB31]"></i>
+                                //-description
+                                div(class="text-black opacity-60 font-[400] md:text-[16px] text-[14px]") "Là một người luôn tìm kiếm những món đồ thời trang độc đáo, tôi rất vui khi tình cờ biết đến 14.SHOP. Việc lựa chọn quần áo không chỉ đa dạng mà còn bắt kịp xu hướng mới nhất."
+                        div(class="swiper-slide") 
+                            div(class="md:px-[28px] px-[24px] md:py-[32px] py-[24px] border border-back-100 rounded-[20px]")
+                                div(class="md:text-[22px] text-[18px] text-[#FFC633] md:mb-[15px] mb-[12px]")
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                div(class="flex items-center md:mb-[12px] mb-[8px]")
+                                    span(class="capitalize md:text-[20px] text-[16px] mr-[7px] text-black font-[700]") Le Van E
+                                    //- icon here 
+                                    <i class="fa-solid fa-circle-check md:w-[20px] w-[16px] md:h-[20px] h-[16px] text-[#01AB31]"></i>
+                                //-description
+                                div(class="text-black opacity-60 font-[400] md:text-[16px] text-[14px]") "Là một người luôn tìm kiếm những món đồ thời trang độc đáo, tôi rất vui khi tình cờ biết đến 14.SHOP. Việc lựa chọn quần áo không chỉ đa dạng mà còn bắt kịp xu hướng mới nhất."
+
+                    //- div(class="swiper-button-next absolute")
+                    //- div(class="swiper-button-prev absolute")
+                    div(class="swiper-pagination absolute")
+                        
         //- END SECTION 6
 
         //- SECTION 7
@@ -398,7 +437,9 @@ html
                       img(class="object-contain" src="assets/images/GooglePay.png")
                     
         //- END FOOTER
-
+        script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
+        script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+        script(src="../assets/js/script.js" type="module")
 
 
 
